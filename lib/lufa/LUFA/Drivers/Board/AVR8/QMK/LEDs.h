@@ -106,13 +106,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         #include "Keyboard.h"
 
         #ifndef QMK_ESC_INPUT
-            #define QMK_ESC_INPUT F1
+            #define QMK_ESC_INPUT F0
         #endif
         #ifndef QMK_ESC_OUTPUT
-            #define QMK_ESC_OUTPUT D5
+            #define QMK_ESC_OUTPUT D0
         #endif
         #ifndef QMK_LED
-            #define QMK_LED     E6
+            #define QMK_LED     F6
         #endif
         #ifndef QMK_SPEAKER
             #define QMK_SPEAKER C6

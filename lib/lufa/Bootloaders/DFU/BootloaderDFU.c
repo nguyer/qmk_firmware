@@ -132,6 +132,7 @@ void Application_Jump_Check(void)
 		/* Re-enable JTAG debugging */
 		JTAG_ENABLE();
 	#else
+        #error in else
 		/* Check if the device's BOOTRST fuse is set */
 		if (boot_lock_fuse_bits_get(GET_HIGH_FUSE_BITS) & FUSE_BOOTRST)
 		{
