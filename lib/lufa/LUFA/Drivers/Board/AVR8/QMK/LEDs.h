@@ -106,16 +106,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         #include "Keyboard.h"
 
         #ifndef QMK_ESC_INPUT
-            #define QMK_ESC_INPUT F0
+            #define QMK_ESC_INPUT D0
         #endif
         #ifndef QMK_ESC_OUTPUT
-            #define QMK_ESC_OUTPUT D0
+            #define QMK_ESC_OUTPUT F0
         #endif
         #ifndef QMK_LED
             #define QMK_LED     F6
         #endif
         #ifndef QMK_SPEAKER
-            #define QMK_SPEAKER C6
+            #define QMK_SPEAKER B2
         #endif
 
         #define DDR(pin) _SFR_IO8(((pin) >> 4) + 1)
