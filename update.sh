@@ -1,7 +1,3 @@
-Massdrop Loader 1.03
+#!/bin/sh
 
-Massdrop Loader  Copyright (C) 2018  Massdrop Inc.
-This program is Free Software and has ABSOLUTELY NO WARRANTY
-
-Opening port '/dev/cu.usbmodem1433201'... Failed! (No such file or directory)
-Error: Could not open port! (Correct port?)
+sleep 10 && ./mdloader_mac -p /dev/cu.usbmodem1433201 -D massdrop_alt_default.bin -v
